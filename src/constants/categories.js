@@ -1,6 +1,6 @@
 import { theme } from "../styles/theme";
 
-// ── Category definitions ──────────────────────────────────────────────────────
+// ── category definitions ──────────────────────────────────────────────────────
 export const CATEGORIES = {
   all:       { label: "All",        icon: "✦",  color: theme.navy    },
   screening: { label: "Screenings", icon: "🩺", color: "#1A3A6B"    },
@@ -8,24 +8,24 @@ export const CATEGORIES = {
   lifestyle: { label: "Lifestyle",  icon: "🥗", color: "#C07800"    },
 };
 
-// ── Verified MyHealthFinder topic URLs ────────────────────────────────────────
+// ── not verified URLs 
 export const TOPIC_URLS = {
   "blood pressure":    "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-your-blood-pressure-checked",
   "diabetes":          "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-tested-for-diabetes",
   "cholesterol":       "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-your-cholesterol-checked",
-  "colorectal":        "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-colorectal-cancer",
+  "colorectal":        "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-colorectal-cancer",
   "colon":             "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-colorectal-cancer",
-  "breast cancer":     "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-a-mammogram",
+  "breast cancer":     "https://odphp.health.gov/myhealthfinder/health-conditions/cancer/get-screened-breast-cancer",
   "mammogram":         "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-a-mammogram",
-  "cervical":          "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-cervical-cancer",
+  "cervical":          "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-cervical-cancer",
   "pap":               "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-cervical-cancer",
   "lung cancer":       "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-lung-cancer",
   "osteoporosis":      "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-a-bone-density-test",
   "bone density":      "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-a-bone-density-test",
   "depression":        "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened-for-depression",
   "hiv":               "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-tested-for-hiv",
-  "hepatitis c":       "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-tested-for-hepatitis-c",
-  "hepatitis":         "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-tested-for-hepatitis-c",
+  "hepatitis c":       "https://odphp.health.gov/myhealthfinder/doctor-visits/talking-doctor/hepatitis-c-screening-questions-doctor",
+  "hepatitis":         "https://odphp.health.gov/myhealthfinder/doctor-visits/talking-doctor/hepatitis-c-screening-questions-doctor",
   "skin cancer":       "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/talk-to-your-doctor-about-skin-cancer",
   "vision":            "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-your-eyes-tested",
   "eye":               "https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-your-eyes-tested",
@@ -46,7 +46,7 @@ export const TOPIC_URLS = {
   "weight":            "https://odphp.health.gov/myhealthfinder/health-topics/weight/maintain-a-healthy-weight",
   "smoking":           "https://odphp.health.gov/myhealthfinder/health-topics/tobacco/quit-smoking",
   "tobacco":           "https://odphp.health.gov/myhealthfinder/health-topics/tobacco/quit-smoking",
-  "alcohol":           "https://odphp.health.gov/myhealthfinder/health-topics/alcohol/drink-alcohol-only-in-moderation",
+  "alcohol":           "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/drink-alcohol-only-moderation",
   "stress":            "https://odphp.health.gov/myhealthfinder/health-topics/mental-health-and-relationships/manage-stress",
   "mental health":     "https://odphp.health.gov/myhealthfinder/health-topics/mental-health-and-relationships/mental-health",
   "prenatal":          "https://odphp.health.gov/myhealthfinder/pregnancy/doctor-and-midwife-visits/prenatal-care",
